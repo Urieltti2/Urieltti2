@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia e Decodificação de Mensagens</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img class="imagemtitulo" src="Krypto Uriel.png" alt="imagem kripto">
+        <div class="content-container">
+            <div class="textarea-container">
+                <textarea id="inputText" placeholder="Insira a mensagem..."></textarea>
+            </div>
+        </div>
+        <textarea id="outputText" placeholder="Mensagem resultante..." readonly></textarea>
+        <div class="button-container">
+            <button id="encryptButton" onclick="criptografarMensagem()">Criptografar</button>
+            <button id="decryptButton" onclick="descriptografarMensagem()" disabled>Descriptografar</button>
+        </div>
+    </div>
+
+
+    <div class="imagemcrypto">
+        <img src="download.jpg" alt="crypto">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
